@@ -37,3 +37,36 @@ h6 {
 .brown-color{
   color: #B29063;
 }
+
+.white-color
+{
+  color:white;
+}
+.golden-btn{
+  border: 1px solid transparent;
+  border-radius: 0;
+  display: inline-flex;
+  font-family: Montserrat,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.7em;
+  margin: 0;
+  outline: 0;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color .3s ease-out,background-color .3s ease-out,border-color .3s ease-out;
+  width: auto;
+  padding: 12px 55px 10px;
+  background-color: #B29063;
+  color: #170802;
+
+}
+.golden-btn:hover{
+  background-color:transparent;
+  border-color: #B29063;
+  color: #B29063;
+}
+.bg-brown{
+background-color: #170802;
+}

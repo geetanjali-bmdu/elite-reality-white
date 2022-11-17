@@ -2,6 +2,7 @@
 import './App.css';
 import About from './components/about-breif/about';
 import Banner from './components/banner/banner';
+import Features from './components/features/features';
 import Nav from './components/nav/nav';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
           <Banner/>
       </header>
       <About/>
+      <Features/>
     </>
   );
 }
