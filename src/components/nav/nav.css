@@ -1,0 +1,41 @@
+.logo-img
+{
+  width: 150px;
+}
+
+.hover-before{
+    margin-left: 30px;
+    position: relative;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+
+.hover-before::before {
+    content: "";
+    display: inline-block;
+    transition: build 2s;
+    transform: left;
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 0;
+    left: -25px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    transition: width .3s linear;
+    transform-origin: left;
+  }
+  .hover-before:hover::before{
+    width: 25px;
+  }
+
+.active::before{
+    width: 25px;
+}
+  .navbar-m{
+    border-bottom: 0.5px solid ;
+    margin-right: 0;
+    background-color: white;
+  }
