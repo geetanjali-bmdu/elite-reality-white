@@ -1,20 +1,24 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import ContentWithBtn from './content-with-btn';
+import FeaturesBoxes from './features-boxes';
 import './features.css'
+
+
 const Features = () => {
     return (
         <div className='bg-brown'>
-        <Container>
-        <div className="content-box">
-            <h6 >ALWAYS PROFESSIONAL</h6>
-            <h2 className='white-color' >Well make sure your hard work succeeds.</h2>
-            <p className='white-color'>Duis sid elicit deus, venitas lorem ipsum dolor sit amet credula non postero elam.</p>
-            <button className='golden-btn'> view more</button>
-                      
+            <Container>
+            <div className="row">
+                <div className="col-lg-6">
+                    <ContentWithBtn titleColor = "white"/>
+                </div>
+                <div className="col-lg-6">
+               <FeaturesBoxes/>
+                </div>
+            </div>
+</Container>
         </div>
-        </Container>
-        </div>
-    
     );
 }
 
