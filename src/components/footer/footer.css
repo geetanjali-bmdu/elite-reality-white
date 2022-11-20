@@ -32,4 +32,26 @@
 }
 a{
   text-decoration: none;
+  color: #fff;
+    transition: color .3s ease-out;
+    cursor: pointer;
+
+}
+a:hover{
+  color: #7b7975;
+}
+.social-links{
+  display: inline-block;
+  margin-right: 20px;
+
+
+}
+
+.list{
+  margin: 0 0 75px;
+  color: #fff;
+}
+.list-item{
+  list-style: none;
+  margin-bottom: 20px;
 }

@@ -100,6 +100,10 @@ background-color: #170802;
   padding-top: 150px;
   padding-bottom: 150px;
 }
+.padding-y-50px{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .margin-y-150px{
   margin-top: 150px;
   margin-bottom: 150px;
@@ -119,4 +123,33 @@ background-color: #170802;
 }
 .max-width-100 img{
   max-width: 100%;
+}
+
+ input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel],input[type=text], input[type=url],select, textarea {
+  background-color: transparent;
+  border-color: #b7b8be;
+  color: #b7b8be;
+  max-width: 100%;
+    width: 100%;
+    margin-top: -5px!important;
+    direction: ltr;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-radius: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: inherit;
+    line-height: 24px;
+    margin: 0 0 26px;
+    outline: 0;
+    padding: 8px 0;
+    transition: color .3s ease-out,background-color .3s ease-out,border-color .3s ease-out;
+
 }

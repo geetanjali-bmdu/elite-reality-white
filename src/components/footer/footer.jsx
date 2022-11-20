@@ -6,8 +6,10 @@ import Right from './Right'
 
 export default function footer() {
   return (
-    <div className='bg-brown white-color'>
+    <div className="bg-brown  white-color ">
+
       <Container>
+    <div className='padding-y-50px'>
 
       <div className="row">
         <div className="col-md-6">
@@ -17,6 +19,16 @@ export default function footer() {
       <Right/>
         </div>
       </div>
+    </div>
+    <div className="row">
+        <div className="col-md-6">
+          <p>
+          © 2022 
+          <a href="/">Elite reality</a>
+          , All Rights Reserved
+          </p>
+        </div>
+        </div>
       </Container>
     </div>
   )
