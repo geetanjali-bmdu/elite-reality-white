@@ -5,6 +5,7 @@ import Applynow from './components/applynow/applynow';
 import Banner from './components/banner/banner';
 import BusinessServies from './components/businessServies/businessServies';
 import Features from './components/features/features';
+import Footer from './components/footer/footer';
 import Nav from './components/nav/nav';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Features/>
       <BusinessServies/>
       <Applynow/>
+      <Footer/>
     </>
   );
 }

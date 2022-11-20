@@ -5,14 +5,14 @@ import Picture from './picture'
 
 export default function applynow() {
   return (
-    <div>
+    <div >
         <Container fluid>
 
         <div className="row">
-            <div className="col-md-6">
+            <div className="col-lg-6">
               <Picture/>
               </div>
-              <div className="col-md-6">
+              <div className="col-lg-6">
                 <Content/>
               </div>
         </div>

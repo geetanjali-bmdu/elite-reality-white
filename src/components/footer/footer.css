@@ -1,0 +1,35 @@
+.logo-img img
+{
+  width: 150px;
+}
+
+.social-links{
+  
+  background-color: #fff;
+  color: #b08e61;
+  border-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 500;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: color .3s ease-out,background-color .3s ease-out;
+  width: 30px;
+  border: 1px solid #fff;
+
+
+}
+.social-links:hover{
+  background-color:#170802;
+  color: #fff;
+
+}
+a{
+  text-decoration: none;
+}

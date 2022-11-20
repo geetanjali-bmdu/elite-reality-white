@@ -1,24 +1,23 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import './applynow.css'
 const Content = () => {
   return (
-    <div className="content-background-img margin-y-150px  position-relative ">
-        {/* <Container> */}
-      <div className="position-absolute">
-      <h2>
+    <div className=" margin-y-150px  content-background-img p-3">
+ 
+      <div className="margin-y-30px" >
+      <h3>
         What will investments look
         <br />
         like after the pandemic year?{" "}
-      </h2>
-      <p className="padding-y-10px">
+      </h3>
+      <p className="padding-y-10px ">
         Duis aute irure dolor in reprehenderit in voluptate velit
         <br />
         esse cillum dolore eu fugiat nulla pariatur.
       </p>
         </div>      
 
-<div className="row p-auto ">
+<div className="row p-auto margin-y-150px ">
     <div className="col-8">
         <h4>
             
@@ -33,8 +32,6 @@ Apply for online conference
     </div>
 </div>
 
-
-        {/* </Container> */}
 
     </div>
   );
