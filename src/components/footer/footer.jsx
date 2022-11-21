@@ -25,9 +25,7 @@ export default function footer() {
 
     <div className="border-top">
     <Container>
-
-      <div className="row">
-
+       <div className="row">
         <div className="col-md-6">
           <p>
           © 2022 
