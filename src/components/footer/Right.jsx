@@ -46,6 +46,10 @@ export default function Right() {
         <div className="col-md-4">
           <div >
             <h5>Subscribe</h5>
+          <div className="row">
+            <div className="col-8">
+
+
             <span data-name="email">
               <input
                 type="email"
@@ -54,13 +58,21 @@ export default function Right() {
                 aria-required="true"
                 aria-invalid="false"
                 placeholder="E-mail*"
-              />
+                className="d-inline-block"
+                />
             </span>
+            </div>
+<div className="col-4">
+
             <button
-              type="submit"
+            className="right-arrow-btn d-inline-block"
+            type="submit"
             >
-              <span>Send</span>
+              <span
+              className="d-inline-block">| ›</span>
             </button>
+              </div>
+        </div>
             <span>*Send message</span>
           </div>
         </div>

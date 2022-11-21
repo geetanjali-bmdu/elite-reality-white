@@ -4,9 +4,10 @@ import { Container } from 'react-bootstrap'
 import Left from './Left'
 import Right from './Right'
 
+import './footer.css'
 export default function footer() {
   return (
-    <div className="bg-brown  white-color ">
+    <div className="bg-footer-img  white-color">
 
       <Container>
     <div className='padding-y-50px'>
@@ -20,16 +21,23 @@ export default function footer() {
         </div>
       </div>
     </div>
-    <div className="row">
+      </Container>
+
+    <div className="border-top">
+    <Container>
+
+      <div className="row">
+
         <div className="col-md-6">
           <p>
           © 2022 
-          <a href="/">Elite reality</a>
+          <a href="/"> Elite reality</a>
           , All Rights Reserved
           </p>
         </div>
+      </div>
+    </Container>
         </div>
-      </Container>
     </div>
   )
 }

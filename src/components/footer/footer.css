@@ -55,3 +55,18 @@ a:hover{
   list-style: none;
   margin-bottom: 20px;
 }
+
+.right-arrow-btn{
+  display: inline-block;
+  background-color: transparent;
+  color: #fff;
+}
+
+.border-top{
+  border-top: solid 1px #201f1fae ;
+  border-color: #201f1fae;
+}
+
+.bg-footer-img{
+  background-image: url("https://halstein.qodeinteractive.com/wp-content/uploads/2022/01/footer-img-2.jpg");
+}
