@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../logo.jpg'
+import logo from '../../../logo.jpg'
 import './footer.css'
 export default function Left() {
   return (

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import logosUrls from '../../images/logos/logourls';
+import logosUrls from '../../../../images/logos/logourls';
 import LogoBox from './logoBox';
 
 const Logos = () => {
