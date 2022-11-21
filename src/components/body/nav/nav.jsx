@@ -15,7 +15,7 @@ function MyNav() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
-          <Nav.Link className="hover-before nav-link-font active" href="#">HOME</Nav.Link>
+          <Nav.Link className="hover-before nav-link-font" href="#">HOME</Nav.Link>
           <Nav.Link className="hover-before nav-link-font" href="#">ABOUT US</Nav.Link>
           <Nav.Link className="hover-before nav-link-font" href="#">SERVICES</Nav.Link>
           <Nav.Link className="hover-before nav-link-font" href="#">BRANDS</Nav.Link>
