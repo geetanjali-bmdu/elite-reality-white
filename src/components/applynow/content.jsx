@@ -2,7 +2,7 @@ import React from "react";
 import './applynow.css'
 const Content = () => {
   return (
-    <div className=" margin-y-150px  content-background-img p-3">
+    <div className=" margin-y-150px content-background-img p-3">
  
       <div className="margin-y-30px" >
       <h3>

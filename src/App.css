@@ -104,6 +104,11 @@ background-color: #170802;
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+.margin-y-50px{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .margin-y-150px{
   margin-top: 150px;
   margin-bottom: 150px;
