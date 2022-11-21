@@ -2,7 +2,7 @@
 import './App.css';
 import About from './components/about-breif/about';
 import Applynow from './components/applynow/applynow';
-import Banner from './components/banner/banner';
+import Carousel from './components/banner/Carousel';
 import BusinessServies from './components/businessServies/businessServies';
 import Features from './components/features/features';
 import Footer from './components/footer/footer';
@@ -13,7 +13,7 @@ function App() {
     <>
       <header>
           <Nav/>
-          <Banner/>
+          <Carousel/>
       </header>
       <About/>
       <Features/>

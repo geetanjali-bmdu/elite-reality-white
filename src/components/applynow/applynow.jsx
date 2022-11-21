@@ -9,11 +9,11 @@ export default function applynow() {
     <div >
         <Container fluid>
 
-        <div className="row applynow-background">
-            <div className="col-lg-6 mx-0 ">
+        <div className="row">
+            <div className="col-lg-6 px-0 ">
               <Picture/>
               </div>
-              <div className="col-lg-6 mx-0 ">
+              <div className="col-lg-6 px-0 ">
                 <Content/>
               </div>
         </div>

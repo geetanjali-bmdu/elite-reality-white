@@ -1,5 +1,4 @@
 .content-background-img{
-    /* height: 725px; */
   background-image: url("https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/h2-img-02.jpg");
 }
 .arrow a{
@@ -8,4 +7,28 @@
 }
 .applynow-background{
   background-color: #e9e6e1;
+}
+.ontop{
+    position: absolute;
+    top: 0;
+}
+.visibility-hidden{
+  visibility : hidden;
+
+}
+.d-relative{
+  position: relative;
+}
+
+.onBottom{
+  position: absolute;
+  bottom: 0;
+}
+@media (max-width :425px) {
+  .mobile-size{
+    font-size: 20px;
+  }
+  p.mobile-size{
+    font-size: 12px;
+  }
 }
