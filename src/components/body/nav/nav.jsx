@@ -5,7 +5,8 @@ import logo from "../../../logo.jpg";
 import './nav.css'
 
 
-function MyNav() {
+function MyNav(props) {
+  
   return (
     <Navbar className='bg-trasparent navbar-m' collapseOnSelect expand="lg"  variant="light" sticky="top" >
       <Container>
@@ -15,12 +16,12 @@ function MyNav() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
-          <Nav.Link className="hover-before nav-link-font" href="#">HOME</Nav.Link>
-          <Nav.Link className="hover-before nav-link-font" href="#">ABOUT US</Nav.Link>
-          <Nav.Link className="hover-before nav-link-font" href="#">SERVICES</Nav.Link>
-          <Nav.Link className="hover-before nav-link-font" href="#">BRANDS</Nav.Link>
-          <Nav.Link className="hover-before nav-link-font" href="#">CONTACT US</Nav.Link>
-          <Nav.Link className="hover-before nav-link-font" href="#">BLOG</Nav.Link>
+          <Nav.Link className={`hover-before nav-link-font {props.active == home? "active"  : ""}`} href="#">HOME</Nav.Link>
+          <Nav.Link className={`hover-before nav-link-font {props.active == home? "active"  : ""}`} href="#">ABOUT US</Nav.Link>
+          <Nav.Link className={`hover-before nav-link-font {props.active == home? "active"  : ""}` }href="#">SERVICES</Nav.Link>
+          <Nav.Link className={`hover-before nav-link-font {props.active == home? "active"  : ""}`} href="#">BRANDS</Nav.Link>
+          <Nav.Link className={`hover-before nav-link-font {props.active == home? "active"  : ""}` }href="#">CONTACT US</Nav.Link>
+          <Nav.Link className={`hover-before nav-link-font {props.active == home? "active"  : ""}`} href="#">BLOG</Nav.Link>
           </Nav>
           {/* <Nav>
             <Nav.Link className='nav-link-font' href="#"  onClick={()=>{
