@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from "../../../logo.jpg";
 import './nav.css'
-
+import {NavLink} from 'react-router-dom'
 
 function MyNav(props) {
   
@@ -16,12 +16,12 @@ function MyNav(props) {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
-          <Nav.Link className={`hover-before nav-link-font {props.active == home? "active"  : ""}`} href="#">HOME</Nav.Link>
-          <Nav.Link className={`hover-before nav-link-font {props.active == home? "active"  : ""}`} href="#">ABOUT US</Nav.Link>
-          <Nav.Link className={`hover-before nav-link-font {props.active == home? "active"  : ""}` }href="#">SERVICES</Nav.Link>
-          <Nav.Link className={`hover-before nav-link-font {props.active == home? "active"  : ""}`} href="#">BRANDS</Nav.Link>
-          <Nav.Link className={`hover-before nav-link-font {props.active == home? "active"  : ""}` }href="#">CONTACT US</Nav.Link>
-          <Nav.Link className={`hover-before nav-link-font {props.active == home? "active"  : ""}`} href="#">BLOG</Nav.Link>
+          <NavLink exact activeClassName="active" className={`hover-before navbar-link-m nav-link-font`} to={"/"} >HOME</NavLink>
+          <NavLink  activeClassName="active" className={`hover-before navbar-link-m nav-link-font `} to={"/aboutUs"}>ABOUT US</NavLink>
+          <NavLink  activeClassName="active" className={`hover-before navbar-link-m nav-link-font ` }to={"/services"} >SERVICES</NavLink>
+          <NavLink  activeClassName="active" className={`hover-before navbar-link-m nav-link-font `} to={"/brands"}>BRANDS</NavLink>
+          <NavLink  activeClassName="active" className={`hover-before navbar-link-m nav-link-font`}to={"/contactus"} >CONTACT US</NavLink>
+          <NavLink  activeClassName="active" className={`hover-before navbar-link-m nav-link-font`} to={"/blog"} >BLOG</NavLink>
           </Nav>
           {/* <Nav>
             <Nav.Link className='nav-link-font' href="#"  onClick={()=>{
