@@ -6,7 +6,16 @@ h2 {
   color: black;
   margin: 25px 0;
     display: block;
-    /* font-weight: bold; */
+     word-wrap: break-word;
+}
+h1 {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.227em;
+  font-family: Marcellus,serif;
+  color: black;
+  margin: 25px 0;
+    display: block;
      word-wrap: break-word;
 }
 a, abbr, acronym, address, applet, b, big, blockquote, body, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
